@@ -21,6 +21,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 36px;
+    margin-right: 20px
 }
 
 nav {
@@ -219,4 +220,37 @@ nav a {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* footer section styles */
+
+.footer-section {
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 130px 220px;
+    margin-top: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.social-link a {
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    width: 100%;
+    color: #757575;
+    border: 0px;
 }
